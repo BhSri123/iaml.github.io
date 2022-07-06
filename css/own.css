@@ -1,0 +1,44 @@
+.left{
+  display:inline-block;
+  position: absolute;
+  font-size: 30px;
+  padding:2px 2px;
+  margin:2px 2px;
+  color: #f32424;
+}
+.right{
+  display:block;
+  position: absolute;
+  top:23px;
+  right:33px;
+}
+.mid{
+  display:block;
+  width:45%;
+  margin: 20px auto;
+}
+.active{
+  font-size: 20px;
+  padding: 20px;
+  margin:2px 2px;
+  color:#aee;
+  text-decoration: none;
+}
+ .mid .active:hover{
+  text-decoration: underline;
+  color: #22f;
+}
+.btn{
+  border: 1px solid #387;
+  border-radius: 20px;
+  background-color: #aaa;
+}
+.btn:hover{
+  background-color: #bbe;
+  cursor: pointer;
+}
+.ok input{
+  border: 1px solid #000;
+  border-radius: 20px;
+  
+}
